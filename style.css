@@ -1,0 +1,125 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+/* Global Styling */
+body {
+    background: #0d0d0d; /* Dark cyber background */
+    color: #e6e6e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.navbar-brand {
+    color: #00eaff !important;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.navbar-brand:hover {
+    color: #00ffff !important;
+    text-shadow: 0 0 10px #00ffff;
+}
+
+.nav-link {
+    color: #cfcfcf !important;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #00eaff !important;
+    text-shadow: 0 0 8px #00eaff;
+}
+
+/* Hero Section */
+.container {
+    margin-top: 30px;
+}
+
+img {
+    border: 3px solid #00eaff;
+    padding: 5px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+}
+
+/* Name + Title */
+.container span {
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 15px;
+    color: #cfcfcf;
+}
+
+.container span:first-of-type {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #00eaff;
+    text-shadow: 0 0 12px #00eaff;
+}
+
+.container span:last-of-type {
+    color: #69f0ff;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    text-shadow: 0 0 8px rgba(0, 255, 255, 0.3);
+}
+
+/* Cyber Glow Divider (optional for future sections) */
+.cyber-divider {
+    width: 80%;
+    height: 2px;
+    margin: 40px auto;
+    background: linear-gradient(90deg, transparent, #00eaff, transparent);
+    box-shadow: 0 0 25px #00eaff;
+}
+
+/* Section Containers */
+.section-box {
+    background-color: rgb(9, 134, 128);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+/* Section Headings */
+.section-box h3 {
+    font-weight: 700;
+    color: white; /* Bootstrap dark */
+    margin-bottom: 1.5rem;
+}
+
+/* Section Text */
+.section-box p,
+.section-box li {
+    color:white; /* Soft dark gray */
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Lists */
+.section-box ul {
+    padding-left: 1.2rem;
+}
+
+/* Buttons consistency */
+.section-nav a {
+    font-weight: 500;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 100px; /* height of navbar */
+}
+
+
